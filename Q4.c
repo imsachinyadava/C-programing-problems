@@ -3,13 +3,14 @@
 #include <stdio.h>
 
 int main(){
-    int principal, rate, years;
+    int principal, years;
+    float rate;
     printf("Enter principal\n");
     scanf("%d", &principal);
     printf("Enter rate\n");
-    scanf("%d", &rate);
+    scanf("%f", &rate);
     printf("Enter years\n");
     scanf("%d", &years);
-    printf("The simple interest is %d", (principal*rate*years)/100);
+    printf("The simple interest is %f", (principal*rate*years)/100);
     return 0;
 }
