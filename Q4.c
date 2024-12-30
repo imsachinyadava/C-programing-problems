@@ -2,7 +2,8 @@
 //principal, number of years and rate of interest.
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int principal, years;
     float rate;
     printf("Enter principal\n");
