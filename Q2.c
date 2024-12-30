@@ -1,8 +1,9 @@
 /*Calculate the area of a circle and modify the same program to calculate the 
-volume of a cylinder given its radius and height. 
-#include <stdio.h>*/
+volume of a cylinder given its radius and height. */
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int radius , height;
     printf("Enter radius\n");
     scanf("%d", &radius);
