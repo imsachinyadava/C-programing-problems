@@ -21,7 +21,7 @@ int main()
     {
         printf("Sorry You are FAILED :(");
     }
-    else if ((total/3) < 140) // 40% of 300 is 120
+    else if ((total/3) < 140)
     {
         printf("Sorry You are FAILED :(");
     }
