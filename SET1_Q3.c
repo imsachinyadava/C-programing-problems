@@ -1,5 +1,7 @@
-/*Write a program to convert Celsius (Centigrade degrees temperature to 
-Fahrenheit).*/
+/*
+Write a program to convert Celsius (Centigrade degrees temperature to 
+Fahrenheit).
+*/
 #include <stdio.h>
 
 int main(){
