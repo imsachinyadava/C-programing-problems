@@ -7,3 +7,5 @@ int main(){
     printf("The value is %f", a);
     return 0;
 }
+
+// FOLLOW ME :)
