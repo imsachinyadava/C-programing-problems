@@ -15,3 +15,5 @@ int main()
     printf("The simple interest is %f", (principal*rate*years)/100);
     return 0;
 }
+
+// FOLLOW ME :)
