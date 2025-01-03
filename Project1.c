@@ -29,12 +29,15 @@ int main()
         {
             printf("Lower number please\n");
         }
-        else
+        else if (guessed_number < random_number)
         {
             printf("Higher number please\n");
         }
+        else
+        {
+            printf("You guessed it in %d guesses", i);
+        }
     } while (guessed_number!=random_number);
-    printf("You guessed it in %d guesses", i);
     return 0;
 }
 
