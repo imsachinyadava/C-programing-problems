@@ -1,20 +1,16 @@
 /*
-Q1. Write a program to print multiplication table of a given number n.
+Q1. Write a program using function to find average of three numbers.
 */
+
 #include <stdio.h>
 
-int main()
-{
-    int n, i;
-    printf("Enter the number: ");
-    scanf("%d", &n);
-    i = 1;
-    while (i <= 10)
-    {
-        printf("%d X %d = %d\n", n, i, n * i);
-        i++; // i=i+1
-    }
-    return 0;
+int average(int ,  int , int);
+
+int average(int a , int b , int c){
+    printf("The average of the numbers is %d", (a+b+c)/3);
 }
 
-// FOLLOW ME :)
+int main(){
+    average(3,4,5);
+    return 0;
+}

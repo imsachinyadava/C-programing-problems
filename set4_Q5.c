@@ -1,21 +1,21 @@
 /*
-Q5. Write a program to sum first ten natural numbers using do-while loop.
+6. Write a recursive function to calculate the sum of first ‘n’ natural numbers.
 */
+int sum(int);
+
+int sum(int n){
+    if (n==1){
+        return 1;
+    }
+    return (n+sum(n-1));
+}
 #include <stdio.h>
 
-int main()
-{
-    int i, m;
-    i = 1;
-    m = 0;
-    do
-    {
-        m = i + m;
-        i++;
-    } while (i <= 10);
-    printf("Sum first ten natural numbers is %d", m);
-
+int main(){
+    int n;
+    printf("Enter the value of n:\n");
+    scanf("%d", &n);
+    sum(n);
+    printf("%d", sum(n));
     return 0;
 }
-
-// FOLLOW ME :)

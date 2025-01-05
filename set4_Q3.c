@@ -1,20 +1,17 @@
 /*
-Q3.Write a program to sum first ten natural numbers using while loop.
+3.  Write a function to calculate force of attraction on a body of mass ‘m’ exerted by 
+    earth. Consider g = 9.8m/s2. 
 */
-#include <stdio.h>
 
-int main()
-{
-    int i, m;
-    i = 1;
-    m = 0;
-    while (i <= 10)
-    {
-        m = i + m;
-        i++;
-    }
-    printf("Sum first ten natural numbers is %d", m);
-    return 0;
+float force(float);
+
+float force(float m){
+    printf("Force of attraction on a body of mass %0.2fKg is %0.2fN", m , m*9.8);
 }
 
-// FOLLOW ME :)
+#include <stdio.h>
+
+int main(){
+    force(38.2);
+    return 0;
+}
