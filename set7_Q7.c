@@ -1,13 +1,15 @@
 /*
-Q6.Create an array of size 3 x 10 containing multiplication tables of the numbers 2,7 
-and 9 respectively. 
+Q7. Repeat problem 6 for a custom input given by the user.
 */
 
 #include <stdio.h>
 
 int main(){
     int arr[3][10];
-    int mul[]={2,7,9};
+    int n1,n2,n3;
+    printf("Enter three number:\n");
+    scanf("%d %d %d",&n1,&n2, &n3);
+    int mul[]={n1,n2,n3};
     for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 10; j++)
